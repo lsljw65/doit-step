@@ -34,8 +34,9 @@ export default{
         removeTodo(todoItem,index){
             // console.log("clicked")
             // console.log(todoItem,index)
-            localStorage.removeItem(todoItem);
-            this.todoItems.splice(index,1);
+            // localStorage.removeItem(todoItem);
+            // this.todoItems.splice(index,1);
+            this.$emit('removeTodo',todoItem, index)
         }
     }
     
