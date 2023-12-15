@@ -18,18 +18,18 @@
 <script>
 export default{
     props:['propsdata'],
-    data(){
+    /* data(){
         return{
             todoItems:[]
         }
-    },
-    created(){
+    }, */
+    /* created(){
         if(localStorage.length > 0){
             for (var i=0; i<localStorage.length; i++){
                 this.todoItems.push(localStorage.key(i));
             }
         }
-    },
+    }, */
     methods:{
         removeTodo(todoItem,index){
             // console.log("clicked")
