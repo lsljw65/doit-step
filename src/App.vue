@@ -26,6 +26,9 @@ export default {
 <style>
 html,body{
   font-family: 'Noto Sans KR', sans-serif;
+  font-weight:700;
+  text-align:center;
+  background-color:#f6f6f8;
 }
 *{
   margin:0;
@@ -36,7 +39,7 @@ img{
   vertical-align:middle;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -44,9 +47,9 @@ img{
   margin-top: 60px;
 }
 
-h1, h2 {
+/* h1, h2 {
   font-weight: normal;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -60,5 +63,15 @@ li {
 
 a {
   color: #42b983;
+}
+input{
+  border-style:groove;
+  width:200px;
+}
+button{
+  border-style:groove;
+}
+.shadow{
+  box-shadow:5px 10px 10px rgba(0,0,0,0.03);
 }
 </style>
